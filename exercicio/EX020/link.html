@@ -1,0 +1,74 @@
+ <!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links personalizados</title>
+    <style>
+        
+        h1{
+            text-align:center;
+        }
+        body{
+            background-color: aquamarine;
+        }
+
+        a{
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            text-align: center;
+            
+
+        }
+
+        a:hover{
+
+            color: brown;
+            text-decoration: underline;
+            background-color: rgb(247, 195, 195);  
+
+        }
+
+        a:active{
+            color: rgb(18, 7, 175);
+        }
+
+        a:visited{
+            color: rgb(67, 7, 122);
+        }
+
+        a::before{
+
+            content: "⇒";
+        }
+         
+        a::after{
+            content: "⇐";
+        }
+       
+
+
+
+
+
+    </style>
+ </head>
+ <body>
+    
+    <h1>Links personalizados</h1>
+    
+        <ul>
+            <li><a href="https://www.facebook.com/derick.jordandejesus" target="_blank">Derick Facebook</a></li>
+            <li><a href="https://www.instagram.com/derickjordan_/" target="_blank">Derick Instagran</a></li>
+            <li><a href="https://twitter.com/home?lang=en" target="_blank">Derick tweter</a></li>
+
+
+
+        </ul>
+
+      
+    
+ </body>
+ </html>
